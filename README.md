@@ -1,1 +1,28 @@
 # kreativestorm-week-2
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Yiping Lin**
+
+- GitHub: [@Yiping]()
+- Twitter: [@Yiping]()
+- LinkedIn: [@Yiping]()
+
+👤 **Mario Myrtaj**
+
+- GitHub: [@Myrtaj]()
+- Twitter: [@Myrtaj]()
+- LinkedIn: [@Myrtaj]()
+
+👤 **Amber "Mason" Stinchcomb**
+
+- GitHub: [@Stinchcomb]()
+- Twitter: [@Stinchcomb]()
+- LinkedIn: [@Stinchcomb]()
+
+👤 **Abdulrahman Nganje**
+- GitHub: [@Nganje](https://github.com/asnganje)
+- Twitter: [@asnganje](https://twitter.com/asnganje)
+- LinkedIn: [@Nganje](https://www.linkedin.com/in/abdulrahman-nganje-a6436935/)
+
+
