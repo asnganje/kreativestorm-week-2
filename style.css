@@ -5,6 +5,10 @@ font-family: 'Roboto';
 h1{
     font-size: 48px;
     color: #f9faf8;
+    font-style: extra-bold;
+}
+header {
+    color: #f9faf8;
 }
 .headerSectionMain {
     background-color: #1F2937;
@@ -25,7 +29,18 @@ h1{
 }
 .headerBottomSection{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+.siteIntro {
+    width: 500px;
+    margin: 20px;
+}
+.homeImg {
+    width: 400px;
+    height: auto;
+    background-color: aliceblue;
+    margin: 20px;
+    color:#1F2937
 }
 .theWhiteDiv{
     background-color: white;
@@ -34,6 +49,7 @@ h1{
 .theGreyDiv{
     background-color: #E5E7EB;
     display: flex;
+
 }
 
 .infoBoxesTitleDiv{
@@ -43,6 +59,7 @@ h1{
 .infoBoxesDiv {
     display: flex;
     justify-content: center;
+    height: 150px;
 }
 .infoBoxesDiv .infoBox{
     display: flex;
@@ -56,4 +73,6 @@ h1{
 .footerDivHome{
     background-color: #1F2937;
     display: flex;
+    color: #f9faf8;
+    font-size: small;
 }
