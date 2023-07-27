@@ -2,6 +2,9 @@
 justify-content: center;
 font-family: 'Roboto';
 }
+body{
+    margin: 0;
+}
 h1{
     font-size: 48px;
     color: #f9faf8;
