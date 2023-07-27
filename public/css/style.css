@@ -9,6 +9,13 @@ h1{
     font-size: 48px;
     color: #f9faf8;
     font-style: extra-bold;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
 }
 header {
     color: #f9faf8;
@@ -17,33 +24,64 @@ header {
     background-color: #1F2937;
     flex-direction: column;
 }
-.headerTopSection {
+.navbar {
     display:flex;
     justify-content: space-between;
+    margin: 0 18vw;
 }
 .logo {
     justify-content: flex-start;
+}
+.logo a{
     font-size: 24px;
     color: #f9faf8;
 }
-.navBar{
+.links ul{
+    display: flex;
+    width: 240px;
+    margin:0;
+    padding:0;
+    justify-content: space-between;
+}
+.links li{
+    padding-top: 12px;
+}
+.links p:hover{
+    color: #e5e7eb88;
+}
+.links .active{
+    color: #e5e7eb88;
+}
+.links a{
+    padding-top: 50px;
     font-size: 18px;
     color: #E5E7EB;
 }
 .headerBottomSection{
     display: flex;
-    justify-content: center;
+    margin: 0 18vw;
 }
 .siteIntro {
-    width: 500px;
-    margin: 20px;
+    width: 31vw;
+    margin: 3vh 1vw 10vh 0;
 }
-.homeImg {
-    width: 400px;
+button{
+    background-color:#3882F6;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #3881f66e;
+}
+.homeImg img{
+    width: 32vw;
     height: auto;
-    background-color: aliceblue;
-    margin: 20px;
-    color:#1F2937
+    margin: 3vh 0 10vh 0;
 }
 .theWhiteDiv{
     background-color: white;
@@ -73,9 +111,15 @@ header {
 .theSignUpDiv {
     display: flex;
 }
-.footerDivHome{
-    background-color: #1F2937;
+footer{
     display: flex;
+    background-color: #1F2937;
+    align-items: center;
+}
+.footerDivHome{
+    display: flex;
+    flex-flow: column;
     color: #f9faf8;
     font-size: small;
+    height: 16vh;
 }
