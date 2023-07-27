@@ -1,0 +1,59 @@
+*{
+justify-content: center;
+font-family: 'Roboto';
+}
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+}
+.headerSectionMain {
+    background-color: #1F2937;
+    flex-direction: column;
+}
+.headerTopSection {
+    display:flex;
+    justify-content: space-between;
+}
+.logo {
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.navBar{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.headerBottomSection{
+    display: flex;
+    justify-content: space-between;
+}
+.theWhiteDiv{
+    background-color: white;
+    flex-direction: column;
+}
+.theGreyDiv{
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.infoBoxesTitleDiv{
+    display: flex;
+    justify-content: center;
+}
+.infoBoxesDiv {
+    display: flex;
+    justify-content: center;
+}
+.infoBoxesDiv .infoBox{
+    display: flex;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    margin: 10px;
+}
+.theSignUpDiv {
+    display: flex;
+}
+.footerDivHome{
+    background-color: #1F2937;
+    display: flex;
+}
