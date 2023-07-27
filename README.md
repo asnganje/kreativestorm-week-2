@@ -1,5 +1,7 @@
 # kreativestorm-week-2
 
+# Preview link https://asnganje.github.io/kreativestorm-week-2/
+
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Yiping Lin**
