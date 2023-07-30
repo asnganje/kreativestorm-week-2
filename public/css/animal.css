@@ -1,0 +1,11 @@
+.animalContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+
+.animal {
+    width: 30vh;
+    margin: 10px;
+}
