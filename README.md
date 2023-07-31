@@ -18,9 +18,8 @@
 
 👤 **Amber "Mason" Stinchcomb**
 
-- GitHub: [@Stinchcomb]()
-- Twitter: [@Stinchcomb]()
-- LinkedIn: [@Stinchcomb]()
+- GitHub: [@Stinchcomb](https://github.com/relentlessmason)
+- LinkedIn: [@Stinchcomb](https://www.linkedin.com/in/relentlessmason/)
 
 👤 **Abdulrahman Nganje**
 - GitHub: [@Nganje](https://github.com/asnganje)
