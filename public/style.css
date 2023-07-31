@@ -208,6 +208,7 @@ button:hover {
     flex: 1;
     border: #3882F6 2px solid;
     border-radius: 10px;
+    padding: 5px;
 }
 .animal img{
     width: 200px;
