@@ -367,6 +367,41 @@ footer ul{
     background-color: #2d67c2;
     border-color: #2d67c2;
 }
+.story{
+    margin-top:1vh;
+    display: flex;
+    justify-content: space-between;
+}
+.story div{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 5vh 10vw 5vh 10vw;
+    background-color: #E5E7EB;
+}
+.story img{
+    width: 50vw;
+    height: auto;
+    max-width: 100%;
+}
+.join{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 5vh 30vw 5vh 30vw;
+    padding: 20px;
+    border-radius: 1%;
+    text-align: center;
+}
+.join button{
+    border: 1px #f9faf8 solid;
+    font-weight: bold;
+}
+.join button:hover{
+    background-color: #476ca8;
+}
 @media screen and (min-width: 800px) {
     .hero__container,
     .contact-info,
