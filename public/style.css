@@ -2,7 +2,9 @@
     justify-content: center;
     font-family: 'Roboto';
 }
-
+body{
+    margin:0;
+}
 h1 {
     font-size: 48px;
     color: #f9faf8;
@@ -74,14 +76,15 @@ button {
 button:hover {
     background-color: #3881f66e;
 }
-.homeImg img{
+.homeImg{
     display: flex;
     width: 32vw;
     height: auto;
     margin: 3vh 0 10vh 0;
+}
+.homeImg img{
     max-width: 100%;
     max-height: 100%;
-    margin-left: 20px;
 }
 .theWhiteDiv {
     background-color: white;
@@ -189,8 +192,8 @@ button:hover {
     margin: 40px;
     padding: 10px 30px 10px 30px;
 }
-#signUpButton :hover{
-    background-color: #1F2937;
+.signUpButton:hover{
+    background-color: #476ca8;
 }
 .divider{
     border-top: 8px solid #1F2937;
@@ -222,7 +225,16 @@ footer {
     flex-flow: column;
     color: #f9faf8;
     font-size: small;
-    height: 10vh;
+}
+footer ul{
+    display: flex;
+    flex-flow: column;
+    padding:0;
+    align-items: center;
+    font-size: small;
+}
+.bottom-nav a{
+    color: #E5E7EB;
 }
 :root {
     --primary-light: #f9faf8;
