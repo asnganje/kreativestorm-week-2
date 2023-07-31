@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="../public/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
@@ -12,26 +11,24 @@
 </head>
 <body>
     <header>
-        <div class="headerSectionMain">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="../index.html">
-                        <p>KreativAquarium</p>
-                    </a>
-                </div>
-                <div class="links">
-                    <ul>
-                        <li>
-                            <a href="./about.html"><p>About</p></a>
-                        </li>
-                        <li>
-                            <a href="./animals.html"><p>Animals</p></a>
-                        </li>
-                        <li>
-                            <a href="./contact.html" class="active"><p>Contact</p></a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <p>KreativAquarium</p>
+                </a>
+            </div><a id="top"></a>
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="./about.html"><p>About</p></a>
+                    </li>
+                    <li>
+                        <a href="./animals.html"><p>Animals</p></a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" class="active"><p>Contact</p></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
@@ -99,17 +96,17 @@
                 </div>
             </div>
         </div>
-        <div class="contact-form-section">
+        <div class="contact-form-section"><hr class="divider">
             <div class="contact-form-section__container">
                 <h2 class="contact-form-section__title">
-                    Leave your message here
+                    Leave Your Message Here
                 </h2>
                 <form class="contact-form" action="" method="get">
                     <div class="contact-form__group">
                         <label
                             for="contactFormName"
                             class="contact-form__label">
-                            name
+                            Name
                         </label>
                         <input
                             type="text"
@@ -122,7 +119,7 @@
                         <label
                             for="contactFormEmail"
                             class="contact-form__label">
-                            email
+                            Email
                         </label>
                         <input
                             type="email"
@@ -150,13 +147,50 @@
                         Submit
                     </button>
                 </form>
-            </div>
+            </div><hr class="divider">
+        </div>
+        <div class="contact-form-section"><hr class="divider">
+            <div class="contact-form-section__container">
+                <h2 class="contact-form-section__title">
+                    Sign Up For Email Alerts
+                </h2>
+                <form class="contact-form" action="" method="get">
+                    <div class="contact-form__group">
+                        <label
+                            for="contactFormName"
+                            class="contact-form__label">
+                            Name
+                        </label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="contactFormName"
+                            class="contact-form__input">
+                    </div>
+                    <div class="contact-form__group">
+                        <label
+                            for="contactFormEmail"
+                            class="contact-form__label">
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="contactFormEmail"
+                            class="contact-form__input">
+                    </div>
+                    <button
+                        type="submit"
+                        class="contact-form__button">
+                        Submit
+                    </button>
+                </form>
+            </div><hr class="divider">
         </div>
     </main>
     <footer>
-        <div class="footerDivHome">
-            <p>Copyright &copy</p>
-        </div>
+        <p>Copyright &copy</p>
+        <a href="#top"><button>Back to Top</button></a>
     </footer>
 </body>
 </html>
