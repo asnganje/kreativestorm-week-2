@@ -2,9 +2,7 @@
     justify-content: center;
     font-family: 'Roboto';
 }
-body {
-    margin: 0;
-}
+
 h1 {
     font-size: 48px;
     color: #f9faf8;
@@ -90,7 +88,12 @@ button:hover {
 }
 .theWhiteDiv {
     background-color: white;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+.quote {
+    padding-bottom: 10px;
 }
 .theGreyDiv {
     background-color: #E5E7EB;
@@ -132,16 +135,51 @@ button:hover {
 .infoBoxesDiv {
     display: flex;
     justify-content: center;
-    height: 150px;
+    height: 200px;
 }
-.infoBoxesDiv .infoBox {
+.infoBox{
     display: flex;
-    border: 2px solid #3882F6;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.infoBox img{
+    border-radius: 5px;
+    height: 125px;
+    width: 130px;
+    object-fit: fill;
+}
+.infoBoxesDiv .borderBox {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #3882F6;
+    height: 125px;
+    width: 130px;
     border-radius: 5px;
     margin: 10px;
 }
+.theSecondWhiteDiv {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
 .theSignUpDiv {
     display: flex;
+    justify-content:space-between;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 5px;
+    margin: 30px 10px 30px 10px;
+    padding: 20px 100px 20px 100px;
+}
+.signUpLeftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.signUpRightSide {
+    display: flex;
+    justify-content: flex-end;
 }
 footer {
     display: flex;
