@@ -12,9 +12,8 @@
 
 👤 **Mario Myrtaj**
 
-- GitHub: [@Myrtaj]()
-- Twitter: [@Myrtaj]()
-- LinkedIn: [@Myrtaj]()
+- GitHub: [@Myrtaj](https://github.com/mmyrtaj)
+- LinkedIn: [@Myrtaj](https://www.linkedin.com/in/mario-myrtaj-7b21b7171/)
 
 👤 **Amber "Mason" Stinchcomb**
 
