@@ -11,111 +11,11 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="logo">
-                <a href="./index.html">
-                    <p>KreativAquarium</p>
-                </a>
-            </div>
-            <div class="links">
-                <ul>
-                    <li>
-                        <a href="./pages/about.html"><p>About</p></a>
-                    </li>
-                    <li>
-                        <a href="./pages/animals.html"><p>Animals</p></a>
-                    </li>
-                    <li>
-                        <a href="./pages/contact.html"><p>Contact</p></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="headerBottomSection">
-            <div class="siteIntro">
-                <h1>Our aquarium is awesome</h1>
-                <p>Come and explore the sights and sounds of our very own KreativAquarium.</p>
-                <a href="./pages/contact.html"><button>Contact</button></a>
-            </div>
-            <div class="homeImg">
-                <img src="./public/images/aquarium.jpg" alt="Picture from our aquarium">
-            </div> 
-         </div>
-    </header>
-    <main>
-        <div class="mainSectionHome">
-            <div class="theWhiteDiv">
-                <div class="infoBoxesTitleDiv">
-                <p>Additional Information</p>
-                </div>
-                <div class="infoBoxesDiv">
-                    <div class="infoBox">
-                        <div class="borderBox">
-                            <a href="./pages/animals.html">
-                            <img src="./public/images/animal2.JPG" 
-                            alt="picture of a dolphin"></a>
-                        </div>
-                        <p>The Animals</p>
-                    </div>
-                    <div class="infoBox">
-                        <div class="borderBox">
-                            <a href="./pages/about.html">
-                            <img src="./public/images/giftshop.png" 
-                            alt="Gift shop image"></a>
-                        </div>
-                        <p>More About Us</p>
-                    </div>
-                    <div class="infoBox">
-                        <div class="borderBox">
-                            <a href="">
-                            <img src="./public/images/jellyfish.jpg" 
-                            alt="image of jellyfish exhibit"></a>
-                        </div>
-                        <p>Upcoming Exhibits</p>
-                    </div>
-                    <div class="infoBox">
-                        <div class="borderBox">
-                            <a href="./pages/contact.html">
-                            <img src="./public/images/telephone.png" 
-                            alt="image of phone icon"></a>
-                        </div>
-                        <p>Contact Us</p>
-                    </div>
-                </div>
-            </div>
-            <section class="theGreyDiv">
-                <figure>
-                    <blockquote class="quote">
-                        <p>
-                            "The fact that three-fifths of an octopus's 
-                            neurons are not in their brain, but in their arms, 
-                            suggests that each arm has a mind of its own."
-                        </p>
-                    </blockquote>
-                    <figcaption>
-                        Sy Montgomery <cite title="Source Title">The Soul of an Octopus</cite>
-                    </figcaption>
-                </figure>
-            </section>
-            <div class="theSecondWhiteDiv">  
-                <div class="theSignUpDiv">
-                    <div class="signUpLeftSide">
-                        <h4>Call to Action! It's Time!</h4>
-                        <p>Sign up for exclusive updates about the aquarium!</p>
-                    </div>
-                    <div class="signUpRightSide">
-                        <a href="./pages/contact.html"><button class="signUpButton">Sign Up</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="bottom-nav">
-            <ul>
-                <li>
-                    <a href="./index.html"><p>Home</p></a>
-                </li>
+        <nav class="navbar">
+            <a href="./index.html" class="logo">
+                <p>KreativAquarium</p>
+            </a>
+            <ul class="links">
                 <li>
                     <a href="./pages/about.html"><p>About</p></a>
                 </li>
@@ -125,11 +25,101 @@
                 <li>
                     <a href="./pages/contact.html"><p>Contact</p></a>
                 </li>
-                <li>
-                    <p>Copyright &copy</p>
-                </li>
             </ul>
-        </div>
+        </nav>
+    </header>
+    <main class="mainSectionHome">
+        <section class="headerBottomSection">
+            <aside class="siteIntro">
+                <h1>Our aquarium is awesome</h1>
+                <p>Come and explore the sights and sounds of our very own KreativAquarium.</p>
+                <a href="./pages/contact.html"><button>Contact</button></a>
+            </aside>
+            <picture class="homeImg">
+                <img src="./public/images/aquarium.jpg" alt="Picture from our aquarium">
+            </picture> 
+        </section>
+        <section class="theWhiteDiv">
+            <h2 class="infoBoxesTitleDiv">Additional Information</h2>
+            <div class="infoBoxesDiv">
+                <figure class="infoBox">
+                    <div class="borderBox">
+                        <a href="./pages/animals.html">
+                            <img src="./public/images/animal2.JPG" 
+                            alt="picture of a dolphin">
+                        </a>
+                    </div>
+                    <figcaption>The Animals</figcaption>
+                </figure>
+                <figure class="infoBox">
+                    <div class="borderBox">
+                        <a href="./pages/about.html">
+                            <img src="./public/images/giftshop.png" 
+                            alt="Gift shop image">
+                        </a>
+                    </div>
+                    <figcaption>More About Us</figcaption>
+                </figure>
+                <figure class="infoBox">
+                    <div class="borderBox">
+                        <a href="">
+                            <img src="./public/images/jellyfish.jpg" 
+                            alt="image of jellyfish exhibit">
+                        </a>
+                    </div>
+                    <figcaption>Upcoming Exhibits</figcaption>
+                </figure>
+                <figure class="infoBox">
+                    <div class="borderBox">
+                        <a href="./pages/contact.html">
+                            <img src="./public/images/telephone.png" 
+                            alt="image of phone icon">
+                        </a>
+                    </div>
+                    <figcaption>Contact Us</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="theGreyDiv">
+            <figure>
+                <blockquote class="quote">
+                    <p>
+                        "The fact that three-fifths of an octopus's 
+                        neurons are not in their brain, but in their arms, 
+                        suggests that each arm has a mind of its own."
+                    </p>
+                </blockquote>
+                <figcaption>
+                    Sy Montgomery <cite title="Source Title">The Soul of an Octopus</cite>
+                </figcaption>
+            </figure>
+        </section>
+        <section class="theSignUpDiv">
+            <aside class="signUpLeftSide">
+                <h4>Call to Action! It's Time!</h4>
+                <p>Sign up for exclusive updates about the aquarium!</p>
+            </aside>
+            <a href="./pages/contact.html"><button class="signUpButton">Sign Up</button></a>
+        </section>
+    </main>
+    <footer class="bottom-nav">
+        <ul>
+            <li>
+                <a href="./index.html"><p>Home</p></a>
+            </li>
+            <li>
+                <a href="./pages/about.html"><p>About</p></a>
+            </li>
+            <li>
+                <a href="./pages/animals.html"><p>Animals</p></a>
+            </li>
+            <li>
+                <a href="./pages/contact.html"><p>Contact</p></a>
+            </li>
+            <li>
+                <p>Copyright &copy</p>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>
