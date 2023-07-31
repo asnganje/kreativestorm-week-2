@@ -6,9 +6,8 @@
 
 👤 **Yiping Lin**
 
-- GitHub: [@Yiping]()
-- Twitter: [@Yiping]()
-- LinkedIn: [@Yiping]()
+- GitHub: [@Yiping](https://github.com/jpingr222)
+- LinkedIn: [@Yiping](https://www.linkedin.com/in/lin-yiping)
 
 👤 **Mario Myrtaj**
 
