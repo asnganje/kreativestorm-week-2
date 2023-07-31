@@ -318,10 +318,12 @@ footer ul{
 }
 .contact-info-item__text {
     order: 2;
+}
+.contact-info-item__text p {
     margin-top: 1rem;
     margin-bottom: -0.5rem;
 }
-.contact-info-item__text:last-child {
+.contact-info-item__text p:last-child {
     margin-bottom: 0;
 }
 .contact-info-item__text--bold {
@@ -330,14 +332,14 @@ footer ul{
 .contact-form-section {
     background-color: var(--secondary-light);
     margin-top: 2rem;
-}
-.contact-form-section__container {
-    width: 100%;
     padding: 2rem;
     box-sizing: border-box;
+    border-top: 8px solid var(--dark);
+    border-bottom: 8px solid var(--dark);
 }
-.contact-form__group {
-    margin-bottom: 1rem;
+.contact-form {
+    width: 100%;
+    margin: auto;
 }
 .contact-form__label {
     display: inline-block;
@@ -349,6 +351,7 @@ footer ul{
     box-sizing: border-box;
     width: 100%;
     padding: 0.375rem 0.75rem;
+    margin-bottom: 1rem;
     line-height: 1.5;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.375rem;
@@ -406,13 +409,20 @@ footer ul{
 .join button:hover{
     background-color: #476ca8;
 }
+@media screen and (min-width: 600px) {
+    .contact-form {
+        width: 50%;
+    }
+}
 @media screen and (min-width: 800px) {
     .hero__container,
-    .contact-info,
-    .contact-form-section__container {
+    .contact-info {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .contact-form {
+        width: 25%;
     }
     .hero__img {
         width: 75px;

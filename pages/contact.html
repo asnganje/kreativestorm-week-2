@@ -33,7 +33,7 @@
         </div>
     </header>
     <main>
-        <div class="hero">
+        <section class="hero">
             <div class="hero__container">
                 <h1 class="hero__title">Contact Us</h1>
                 <p class="hero__text">
@@ -58,123 +58,117 @@
                     class="hero__img hero__img--right"
                 >
             </div>
-        </div>
-        <div class="contact-info">
+        </section>
+        <section class="contact-info">
             <h2 class="contact-info__title">Get in touch</h2>
             <div class="contact-info-list">
-                <div class="contact-info-item">
+                <figure class="contact-info-item">
                     <h3 class="contact-info-item__title">Address</h3>
                     <img
                         src="../public/images/location.png"
                         alt="Address icon"
                         class="contact-info-item__icon"
                     >
-                    <p class="contact-info-item__text contact-info-item__text--bold">
-                        KreativAquarium
-                    </p>
-                    <p class="contact-info-item__text">
-                        8915 Wayne Court<br>Roy, UT 84067
-                    </p>
-                </div>
-                <div class="contact-info-item">
+                    <figcaption class="contact-info-item__text">
+                        <p class="contact-info-item__text--bold">
+                            KreativAquarium
+                        </p>
+                        <p>
+                            8915 Wayne Court<br>Roy, UT 84067
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class="contact-info-item">
                     <h3 class="contact-info-item__title">Phone</h3>
                     <img
                         src="../public/images/telephone.png"
                         alt="Phone icon"
                         class="contact-info-item__icon"
                     >
-                    <p class="contact-info-item__text">(0) 123456789</p>
-                </div>
-                <div class="contact-info-item">
+                    <figcaption class="contact-info-item__text">
+                        <p>(0) 123456789</p>
+                    </figcaption>
+                </figure>
+                <figure class="contact-info-item">
                     <h3 class="contact-info-item__title">Email</h3>
                     <img
                         src="../public/images/mail.png"
                         alt="Email icon"
                         class="contact-info-item__icon"
                     >
-                    <p class="contact-info-item__text">info@aquarium.com</p>
-                </div>
+                    <figcaption class="contact-info-item__text">
+                        <p>info@aquarium.com</p>
+                    </figcaption>
+                </figure>
             </div>
-        </div>
-        <div class="contact-form-section"><hr class="divider">
-            <div class="contact-form-section__container">
-                <h2 class="contact-form-section__title">
-                    Leave Your Message Here
-                </h2>
-                <form class="contact-form" action="" method="get">
-                    <div class="contact-form__group">
-                        <label
-                            for="contactFormName"
-                            class="contact-form__label">
-                            Name
-                        </label>
-                        <input
-                            type="text"
-                            name="name"
-                            id="contactFormName"
-                            class="contact-form__input"
-                        >
-                    </div>
-                    <div class="contact-form__group">
-                        <label
-                            for="contactFormEmail"
-                            class="contact-form__label">
-                            Email
-                        </label>
-                        <input
-                            type="email"
-                            name="email"
-                            id="contactFormEmail"
-                            class="contact-form__input"
-                        >
-                    </div>
-                    <div class="contact-form__group">
-                        <label
-                            for="contactFormMessage"
-                            class="contact-form__label">
-                            Your message
-                        </label>
-                        <textarea
-                            name="message"
-                            id="contactFormMessage"
-                            rows="3"
-                            class="contact-form__input">
-                        </textarea>
-                    </div>
-                    <button
-                        type="submit"
-                        class="contact-form__button">
-                        Submit
-                    </button>
-                </form>
-            </div><hr class="divider">
-        </div>
-        <div class="contact-form-section"><hr class="divider">
-            <div class="contact-form-section__container">
-                <h2 class="contact-form-section__title">
-                    Sign Up For Email Alerts
-                </h2>
-                <form class="contact-form" action="" method="get">
-                    <div class="contact-form__group">
-                        <label
-                            for="sugnUpAlertEmail"
-                            class="contact-form__label">
-                            Email
-                        </label>
-                        <input
-                            type="email"
-                            name="email"
-                            id="sugnUpAlertEmail"
-                            class="contact-form__input">
-                    </div>
-                    <button
-                        type="submit"
-                        class="contact-form__button">
-                        Submit
-                    </button>
-                </form>
-            </div><hr class="divider">
-        </div>
+        </section>
+        <section class="contact-form-section">
+            <h2 class="contact-form-section__title">
+                Leave Your Message Here
+            </h2>
+            <form class="contact-form" action="" method="get">
+                <label
+                    for="contactFormName"
+                    class="contact-form__label">
+                    Name
+                </label>
+                <input
+                    type="text"
+                    name="name"
+                    id="contactFormName"
+                    class="contact-form__input"
+                >
+                <label
+                    for="contactFormEmail"
+                    class="contact-form__label">
+                    Email
+                </label>
+                <input
+                    type="email"
+                    name="email"
+                    id="contactFormEmail"
+                    class="contact-form__input"
+                >
+                <label
+                    for="contactFormMessage"
+                    class="contact-form__label">
+                    Your message
+                </label>
+                <textarea
+                    name="message"
+                    id="contactFormMessage"
+                    rows="3"
+                    class="contact-form__input">
+                </textarea>
+                <button
+                    type="submit"
+                    class="contact-form__button">
+                    Submit
+                </button>
+            </form>
+        </section>
+        <section class="contact-form-section">
+            <h2 class="contact-form-section__title">
+                Sign Up For Email Alerts
+            </h2>
+            <form class="contact-form" action="" method="get">
+                <label
+                    for="sugnUpAlertEmail"
+                    class="contact-form__label">
+                    Email
+                </label>
+                <input
+                    type="email"
+                    name="email"
+                    id="sugnUpAlertEmail"
+                    class="contact-form__input">
+                <button
+                    type="submit"
+                    class="contact-form__button">
+                    Submit
+                </button>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="bottom-nav">
